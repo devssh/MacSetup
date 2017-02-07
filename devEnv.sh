@@ -15,3 +15,8 @@ brew cask install 1password
 # installed the development - ansible, gdbm, sqlite, openssl
 brew cask install anaconda
 # added   export PATH=~/anaconda3/bin:"$PATH" to bash_profile
+
+brew install autojump
+
+brew install zsh-syntax-highlighting
+# added source zsh-syntax-highlighting to zshrc
