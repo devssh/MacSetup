@@ -1,3 +1,4 @@
+# optional install xcode beforehand
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew cask install karabiner
 brew cask install iterm2
@@ -15,8 +16,17 @@ brew cask install 1password
 # installed the development - ansible, gdbm, sqlite, openssl
 brew cask install anaconda
 # added   export PATH=~/anaconda3/bin:"$PATH" to bash_profile
+# added default env
 
 brew install autojump
 
 brew install zsh-syntax-highlighting
-# added source zsh-syntax-highlighting to zshrc
+brew install zsh-autosuggestions
+brew install antigen
+# added source zsh-syntax-highlighting,etc to zshrc
+
+brew install steam
+
+
+
+
