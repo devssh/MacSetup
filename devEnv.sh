@@ -8,5 +8,10 @@ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB8
 source ~/.bash_profile
 rvm install ruby-2.3.3
 rvm docs generate-ri
-
-
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# zshrc to agnoster
+# roboto mono medium for powerline in mac
+brew cask install 1password
+# installed the development - ansible, gdbm, sqlite, openssl
+brew cask install anaconda
+# added   export PATH=~/anaconda3/bin:"$PATH" to bash_profile
