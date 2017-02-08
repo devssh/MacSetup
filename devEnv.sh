@@ -75,10 +75,16 @@ brew cask install slack
 #NVM
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
 # added stuff to bash_profile
+# this installs latest nodejs
+nvm install node
 
 
 brew cask install github-desktop
 brew cask install gitkraken
 
+brew install graphviz
 
+# Haskell
+brew install haskell-stack
+stack setup
 
