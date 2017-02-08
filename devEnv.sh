@@ -67,5 +67,18 @@ brew install octave
 # installs gcc, imagemagick, hdf5, gnuplot and lot of useful stuff
 
 
+brew cask install slack
+
+# gem install bundler 
+# bundle installed a few things
+
+#NVM
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
+# added stuff to bash_profile
+
+
+brew cask install github-desktop
+brew cask install gitkraken
+
 
 
