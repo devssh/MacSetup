@@ -88,3 +88,13 @@ brew install graphviz
 brew install haskell-stack
 stack setup
 
+
+brew cask install postgres
+brew cask install atom
+brew cask install gimp
+brew cask install pycharm
+brew cask install torguard
+brew cask install discord
+brew cask install dash
+
+
