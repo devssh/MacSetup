@@ -88,6 +88,7 @@ brew install graphviz
 brew install haskell-stack
 stack setup
 
+# Copy files from old mac
 
 brew cask install postgres
 brew cask install atom
@@ -96,5 +97,19 @@ brew cask install pycharm
 brew cask install torguard
 brew cask install discord
 brew cask install dash
+brew cask install skype
+brew cask install torbrowser
+brew cask install dropbox
+brew cask install intellij-idea
+brew cask install xampp
+brew cask install firefox
+brew cask install thunderbird
+brew cask install vlc
+brew cask install flux
+brew cask install android-studio
+brew cask install libreoffice
+# install matlab
+brew cask install razer-synapse
+brew cask install gpgtools
 
 
