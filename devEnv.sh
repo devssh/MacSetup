@@ -112,4 +112,5 @@ brew cask install libreoffice
 brew cask install razer-synapse
 brew cask install gpgtools
 
-
+brew install tree
+pip install Django
