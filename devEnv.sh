@@ -114,3 +114,7 @@ brew cask install gpgtools
 
 brew install tree
 pip install Django
+antigen bundle kennethreitz/autoenv
+brew install homebrew-command-not-found
+
+
