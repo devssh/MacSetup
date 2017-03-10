@@ -1,3 +1,5 @@
+# I wouldn't run this file, copy paste the commands
+
 # optional install xcode beforehand
 
 # Homebrew
@@ -26,12 +28,14 @@ rvm docs generate-ri
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 # zshrc to agnoster
 # roboto mono medium for powerline in mac
+
+# Antigen - The best manager for zsh
 brew install antigen
-# can use antigen instead to install the zsh plugins
-brew install autojump
-brew install zsh-syntax-highlighting
-brew install zsh-autosuggestions
-brew install antigen
+# Use antigen  instead to install the zsh plugins below
+# brew install zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-syntax-highlighting
+# brew install zsh-autosuggestions
+antigen bundle zsh-users/zsh-autosuggestions
 # added source zsh-syntax-highlighting,etc to zshrc
 
 
@@ -116,5 +120,30 @@ brew install tree
 pip install Django
 antigen bundle kennethreitz/autoenv
 brew install homebrew-command-not-found
+
+# Pathogen for Vim - be careful to not slow down vim
+mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+
+#Syntastic for Vim
+cd ~/.vim/bundle && \
+git clone --depth=1 https://github.com/vim-syntastic/syntastic.git
+
+#Virtual env if needed
+pip install virtualenv virtualenvwrapper
+
+#OpenCV for Python2.7 steps
+brew install opencv
+pip install opencv-python
+
+#Mongodb
+brew cask install mongodb
+brew install mongodb
+
+#Git and gitk
+brew install git
+
+#Elixir
+brew install elixir
 
 
