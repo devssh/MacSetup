@@ -146,4 +146,11 @@ brew install git
 #Elixir
 brew install elixir
 
+#Latex
+brew cask install mactex
 
+#Vagrant
+brew cask install vagrant
+
+#GoLang
+brew install go
