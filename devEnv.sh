@@ -94,8 +94,16 @@ stack setup
 
 # Copy files from old mac
 
-brew cask install postgres
+# Atom
 brew cask install atom
+apm install tablr
+apm install atom-html-preview
+apm install pigments
+apm install minimap
+
+
+brew cask install sublime-text2
+brew cask install postgres
 brew cask install gimp
 brew cask install pycharm
 brew cask install torguard
@@ -154,3 +162,20 @@ brew cask install vagrant
 
 #GoLang
 brew install go
+
+#Erlang
+
+#Scala
+brew install sbt
+brew install scala
+
+#Heroku
+brew install heroku
+
+#Virtualenv
+pip install virtualenv
+
+#R
+brew install R
+brew cask install rstudio
+
