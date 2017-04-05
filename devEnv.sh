@@ -179,3 +179,7 @@ pip install virtualenv
 brew install R
 brew cask install rstudio
 
+#AWS CLI
+brew install awscli
+
+#XMIND
